@@ -1,0 +1,41 @@
+<DOCTYPE!>
+    <html>
+        <head>
+            <title>War In Humanity</title>
+            <a href="basic.html">
+                <img src="Dove.JPG" alt="dove" width="320" height="250" class="Logo"/></a>
+            <div class="topnav" id="myTopnav"> 
+                <a href="contacts.html"><i class="fa fa-fw fa-envelope"></i> Contacts</a>
+                <a href="quiz.html"><i class="fa fa-fw fa-search"></i> Quiz!</a> 
+                <a href="page2.html"><i class="fa fa-server"></i> How?</a>
+                <!--<a href="basic.html"><i class="fa fa-fw fa-home"></i> Home</a>-->
+				<img src="banner.png" alt="banner" width="500" height="150" class="banner"/>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></div>
+                </a>
+            </div>
+            </br>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="styles.css"> <!--This denotes these two files as linked to this 
+            file. Subsequent files will require the same treatment-->
+            <script src="styling.js"></script>
+            <h1>Quiz on Important Facts</h1>
+            <div class="quiz-container">
+            
+            
+            
+            <div id="quiz"></div>
+            </div>
+            <button id="previous">Previous Question</button>
+            <button id="next">Next Question</button>
+            <button id="submit">Submit Quiz</button>
+            <div id="results"></div>
+        </head>
+
+        <body>
+
+            <script src="index.js"> //resolved a problem where the questions don't show up by deleted the script and referencing it here.
+                buildQuiz()
+            </script>
+        </body>
+    </html>
